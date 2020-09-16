@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERN PROJECT</title>
+
+    <link rel="stylesheet" href="js/framework7/css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.14.0-web/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+        <div class="view view-main">
+
+            <div class="page">
+
+                <div class="toolbar tabbar tabbar-labels toolbar-bottom">
+                    <div class="toolbar-inner">
+
+                        <a href="#tab-1" class="tab-link tab-link-active">
+                            <i class="fa fa-unlock"></i>
+                            <p>LOGIN</p>
+                        </a>
+                        <a href="#tab-2" class="tab-link">
+                            <i class="fas fa-user-plus"></i>
+                            <p>REGISTER</p>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="tabs-animated-wrap">
+                    <div class="tabs">
+
+                        <div id="tab-1" class="tab tab-active page-content">
+                            <!-- title -->
+                            <div class="title-apps padding-middle background-primer">
+                                <div class="container">
+                                    <div class="row row-no-margin-bottom">
+                                        <div class="col-80">
+                                            <h3 class="color-white">INTERN PROJECT</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end title -->
+
+                            <!-- login form -->
+                            <div class="login-register">
+
+                                <div class="container margin-top">
+                                    <div class="separator"></div>
+                                    <div class="separator"></div>
+                                    <h3 class="text-center color-primer">Login To Your Account</h3>
+
+                                    <form id="login-form" class="margin-bottom">
+                                        <div class="separator"></div>
+
+                                        <input type="tel" placeholder="Enter your phone number" name="phone_number"
+                                            required minlength="10" maxlength="10">
+                                        <input type="password" placeholder="Enter password" name="password" required
+                                            minlength="6">
+
+                                        <button type="submit" class="buttons buttons-center">LOGIN <i
+                                                class="fa fa-chevron-circle-right"></i> </button>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+                            <!-- end login form -->
+
+                        </div>
+
+                        <div id="tab-2" class="tab page-content">
+                            <!-- title -->
+                            <div class="title-apps padding-middle background-primer">
+                                <div class="container">
+                                    <div class="row row-no-margin-bottom">
+                                        <div class="col-80">
+                                            <h3 class="color-white">REGISTER</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end title -->
+
+                            <!-- login form -->
+                            <div class="login-register">
+
+                                <div class="container margin-top">
+                                    <div class="separator"></div>
+                                    <div class="separator"></div>
+                                    <h3 class="text-center color-primer">Register New Account</h3>
+
+                                    <form id="login-form" class="margin-bottom">
+                                        <div class="separator"></div>
+
+                                        <input type="text" placeholder="Enter your full name" name="fullname" required>
+                                        <input type="tel" placeholder="Enter your phone number" name="phone_number"
+                                            required minlength="10" maxlength="10">
+                                        <input type="password" placeholder="Enter new password" name="password" required
+                                            minlength="6">
+                                        <input type="password" placeholder="Confirm password" name="password" required
+                                            minlength="6">
+
+                                        <button type="submit" class="buttons buttons-center">REGISTER <i
+                                                class="fa fa-chevron-circle-right"></i> </button>
+
+                                    </form>
+
+                                </div>
+
+                            </div>
+                            <!-- end login form -->
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/framework7/js/framework7.bundle.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
